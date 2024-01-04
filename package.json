@@ -1,0 +1,41 @@
+{
+  "name": "ai-art-critic",
+  "version": "1.0.0",
+  "description": "A web-based platform that uses OpenAI's GPT model to analyze and critique artworks.",
+  "main": "app.py",
+  "scripts": {
+    "start": "node app.py",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/ai-art-critic.git"
+  },
+  "keywords": [
+    "AI",
+    "Art",
+    "Critique",
+    "OpenAI",
+    "GPT",
+    "Artwork Analysis",
+    "Art History",
+    "Art Education"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/ai-art-critic/issues"
+  },
+  "homepage": "https://github.com/yourusername/ai-art-critic#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

@@ -1,0 +1,46 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Art Critic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to AI Art Critic!</h1>
+    </header>
+    <main>
+        <section id="upload-section">
+            <h2>Upload Your Artwork</h2>
+            <form id="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" id="file" name="file" accept="image/*" required>
+                <button type="submit">Analyze</button>
+            </form>
+        </section>
+        <section id="compare-section">
+            <h2>Compare Two Artworks</h2>
+            <form id="compare-form" action="/compare" method="post" enctype="multipart/form-data">
+                <input type="file" id="file1" name="file1" accept="image/*" required>
+                <input type="file" id="file2" name="file2" accept="image/*" required>
+                <button type="submit">Compare</button>
+            </form>
+        </section>
+        <section id="user-section">
+            <h2>User Profile</h2>
+            <form id="user-form" action="/user" method="post">
+                <input type="text" id="username" name="username" placeholder="Username" required>
+                <button type="submit">Create User</button>
+            </form>
+            <div id="user-profile"></div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2022 AI Art Critic. All rights reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
+```
+</button>
